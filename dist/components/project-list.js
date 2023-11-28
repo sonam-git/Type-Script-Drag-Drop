@@ -6,7 +6,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 import { ProjectStatus } from '../models/project.js';
 import { Component } from './base-component.js';
-import { Autobind } from '../decorators/autobind-decorator.js';
+import { Autobind } from '../decorators/autobind.js';
 import { projectState } from '../state/project-state.js';
 import { ProjectItem } from './project-item.js';
 //ProjectList Class

@@ -5,8 +5,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 import { Component } from "./base-component.js";
-import { validate } from "../util/validation.js";
-import { Autobind } from "../decorators/autobind-decorator.js";
+import * as Validation from "../util/validation.js";
+import { Autobind } from "../decorators/autobind.js";
 import { projectState } from "../state/project-state.js";
 // ProjectInput Class
 export class ProjectInput extends Component {
@@ -39,9 +39,9 @@ export class ProjectInput extends Component {
             required: true,
             min: 1,
         };
-        if (!validate(titleValidatable) ||
-            !validate(descriptionValidatable) ||
-            !validate(peopleValidatable)) {
+        if (!Validation.validate(titleValidatable) ||
+            !Validation.validate(descriptionValidatable) ||
+            !Validation.validate(peopleValidatable)) {
             alert("Invalid input, please try again!");
             return;
         }
