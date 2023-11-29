@@ -19,7 +19,11 @@ This TypeScript project aims to enhance project management capabilities within a
 ## User Story:
 
 ```
-As a user, I want to be able to manage projects in my TypeScript application. I should be able to add new projects, specify the number of people assigned to each project, provide project descriptions, and categorize projects as either active or finished. Additionally, I should be able to visually organize projects by dragging and dropping them between the active and finished sections.
+As a user, I want to be able to manage projects in my TypeScript application. 
+I should be able to add new projects, specify the number of people assigned 
+to each project, provide project descriptions, and categorize projects as either
+ active or finished. Additionally, I should be able to visually organize projects 
+by dragging and dropping them between the active and finished sections.
 
 
 
@@ -37,19 +41,24 @@ Given that I am using the TypeScript application,
 
 2. Each project is displayed in the "Active Projects" section by default.
 
-3. I can mark a project as finished, moving it from the "Active Projects" section to the "Finished Projects" section.
+3. I can mark a project as finished, moving it from the "Active Projects" 
+section to the "Finished Projects" section.
 
-4. The application provides a user-friendly way to visually organize projects by allowing me to drag and drop them between the "Active Projects" and "Finished Projects" sections.
+4. The application provides a user-friendly way to visually organize projects by 
+allowing me to drag and drop them between the "Active Projects" and "Finished Projects" sections.
 
-5. The application ensures that all project details, including the number of assigned people and project description, are clearly visible and editable.
+5. The application ensures that all project details, including the number of assigned 
+people and project description, are clearly visible and editable.
 
 6. When viewing the list of projects, it is clear which projects are active and which ones are finished.
 
 7. The user interface provides feedback or confirmation when a project is successfully added or moved.
 
-8. The application handles errors gracefully, providing helpful error messages or prompts if there are issues adding or moving projects.
+8. The application handles errors gracefully, providing helpful error messages or prompts 
+if there are issues adding or moving projects.
 
-9. The state of projects (active or finished) is stored persistently so that it is maintained between sessions.
+9. The state of projects (active or finished) is stored persistently so that it is 
+maintained between sessions.
 
 10. The application maintains responsiveness and usability even as the number of projects grows.
 
